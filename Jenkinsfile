@@ -1,5 +1,9 @@
 pipeline {
     agent  any 
+    tools { 
+        maven 'mvn' 
+    
+    }
     
     stages {
         // Step 1
