@@ -27,7 +27,7 @@ pipeline {
                 }
         }
         
-        Redhat 8 CLI 2
+       
         stage('Deploy webAPP in Prod Env') {
             steps {
                
